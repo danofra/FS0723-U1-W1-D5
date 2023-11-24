@@ -3,18 +3,10 @@
 html {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
-    font-size: 100%;
 }
 
 * {
     box-sizing: border-box;
-}
-
-body{
-    width: 450px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
 }
 /* HEADER */
 header{
@@ -29,8 +21,9 @@ header{
     background-image: url(../images/banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    padding: 45px;
+    background-position: top;
+    text-align: center;
+    padding: 135px;
 }
 #header-text h1 {
     font-family: 'Montserrat', sans-serif;
@@ -55,6 +48,7 @@ header{
     font-weight: 700;
     font-size: 1rem;
     text-transform: uppercase;
+    text-align: center;
     color: white;
     border: none;
     border-radius: 5px;
@@ -68,6 +62,13 @@ header{
     margin: 2rem;
 }
 /* ELEMENTI NEL MAIN - ARTICLE */
+
+table .th {
+    vertical-align: top;
+    padding: 60px;
+    text-align: left;
+    
+}
 .art-1 .p-1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -87,12 +88,16 @@ header{
     margin-bottom: 2rem;
 }
 #art-2 img{
+    width: 500px;
+    height: 500px;
     border-radius:100%;
 }
 
 #art-3 {
+    width: 100%;
     background-color: #e22d0e;
-    padding: 10%;
+    padding: 5%;
+    text-align: center;
 }
 #art-3 #p-1 {
     font-family: 'Montserrat', sans-serif;
@@ -105,7 +110,7 @@ header{
 #art-3 #p-2 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-style: italic;
     color: rgb(255, 255, 255);
     line-height: 1.5;
@@ -136,6 +141,7 @@ header{
     margin-right: 20px;
 }
 
+
 .art-4 .p-1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -161,10 +167,10 @@ header{
 
 /* FOOTER */
 footer {
+    text-align: center;
     background-color: #25a2c3;
     padding: 20px;
     margin-top: 60px;
-    margin-bottom: 60px;
     color: #c8e7f0;
 }
 
