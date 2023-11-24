@@ -1,0 +1,202 @@
+/* Your styles here */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap');
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+/* HEADER */
+header{
+    margin-bottom: 4.5rem;
+}
+#header-img{
+    background-color: black;
+    padding: 3rem;
+}
+
+#header-text {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 45px;
+}
+#header-text h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #25a2c3;
+    line-height: 1;
+    margin-bottom: 2rem;
+}
+#header-text p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: black;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+#header-text button {
+    background-color: #f04c2f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+/* MAIN */
+#sec-1 {
+    margin: 2rem;
+}
+/* ELEMENTI NEL MAIN - ARTICLE */
+.art-1 .p-1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #25a2c3;
+    line-height: 1;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+.art-1 .p-2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: black;
+    line-height: 1;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+#art-2 img{
+    border-radius:100%;
+}
+
+#art-3 {
+    background-color: #e22d0e;
+    padding: 10%;
+}
+#art-3 #p-1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #ffffff;
+    line-height: 1;
+    margin-bottom: 2rem;
+}
+#art-3 #p-2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+#art-3 #p-3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    margin-top: 1rem;
+}
+#art-3 #p-4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+.art-4 {
+    border: 1px solid #dee1e3;
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.art-4 .p-1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #25a2c3;
+    line-height: 1;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+.art-4 .p-2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: black;
+    line-height: 1.5;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
+footer {
+    background-color: #25a2c3;
+    padding: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: #c8e7f0;
+}
+
+footer h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: white;
+    line-height: 1;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+footer p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #c8e7f0;
+    margin-top: 0.5rem;
+}
+footer p a {
+    color: #c8e7f0;
+}
+footer p i {
+    margin-right: 0.5rem;
+}
+footer #contact {
+    padding-bottom: 70px;
+}
+footer span {
+    border-top: 1px solid white;
+    padding-top: 30px;
+}
+footer span a {
+    color: #c8e7f0;
+}
